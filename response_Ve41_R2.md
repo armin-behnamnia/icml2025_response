@@ -13,3 +13,6 @@ Bias, Variance, and MSE of different methods when reward distribution is heavy-t
 | T-Student    | Bias     | 0.9914     | 1.072  | 3.688  | 2.086  | 0.7545 | 3.766  | 0.0029 | 0.7982  |
 | T-Student    | Variance | 0.3270     | 0.3647 | 0.1986 | 24.69  | 79.09  | 0.2374 | 205.6  | 61.42   |
 | T-Student    | MSE      | **1.310**  | 1.513  | 13.80  | 29.04  | 79.66  | 14.42  | 205.6  | 62.06   |
+
+MSE of LSE for different values of $\lambda$ when reward has different heavy-tailed distributions.
+![image](https://github.com/user-attachments/assets/d7d29308-bf17-4236-800f-7db8f1f841ce)
