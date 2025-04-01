@@ -1,4 +1,4 @@
-![effect](https://github.com/user-attachments/assets/41075135-01ac-4172-beb0-29e65091aeda)Bias, Variance, and MSE of different methods when reward distribution is heavy-tailed. We set the reward distribution as each of the four families: Lomax, Generalized Extreme Value, Frechet, and T-Student. We select the parameter of each familiy such that they have finite mean and infinite variance.
+Bias, Variance, and MSE of different methods when reward distribution is heavy-tailed. We set the reward distribution as each of the four families: Lomax, Generalized Extreme Value, Frechet, and T-Student. We select the parameter of each familiy such that they have finite mean and infinite variance.
 | Distribution | Metric   | LSE        | LS     | IX     | ES     | PM     | OS     | SNIPS  | IPS-TR  |
 |--------------|----------|------------|--------|--------|--------|--------|--------|--------|---------|
 | Lomax        | Bias     | 1.511      | 1.617  | 4.671  | 2.584  | 0.5677 | 4.778  | 0.1058 | 0.9616  |
@@ -13,6 +13,7 @@
 | T-Student    | Bias     | 0.9914     | 1.072  | 3.688  | 2.086  | 0.7545 | 3.766  | 0.0029 | 0.7982  |
 | T-Student    | Variance | 0.3270     | 0.3647 | 0.1986 | 24.69  | 79.09  | 0.2374 | 205.6  | 61.42   |
 | T-Student    | MSE      | **1.310**  | 1.513  | 13.80  | 29.04  | 79.66  | 14.42  | 205.6  | 62.06   |
+
 
 MSE of LSE for different values of $\lambda$ when reward has different heavy-tailed distributions.
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
